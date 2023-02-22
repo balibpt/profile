@@ -15,9 +15,8 @@
   color: white;
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
-  border: 1px solid blue;
   border-radius: 6px;
-  background-color: purple;
+  background-color: #6B72E1;
 }
 
 .box_white {
@@ -27,7 +26,7 @@
   background-color: white;
   text-align: center;
   padding: 40px;
-  margin: 15px auto;
+  margin: 20px auto;
 }
 
 
@@ -36,9 +35,10 @@
 }
 
 .link_lists li a {
-  color: lightblue;
-  font-size: 40px;
-  padding-right: 10px;
+  color: rgba(87,95,125,0.2);
+  font-weight: lighter;
+  font-size: 50px;
+  padding-right: 15px;
 }
 
 .link_lists li {
@@ -53,7 +53,7 @@
   /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
-    margin: 0px auto;
+    margin: 40px auto;
   }
 }
 
