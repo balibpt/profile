@@ -1,0 +1,67 @@
+#display_pic {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+#header_grey {
+  color: rgb(99, 97, 97);
+  font-family: 'Roboto', sans-serif;
+}
+
+#lewagon_link {
+  text-decoration: none;
+  padding: 15px 20px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  border: 1px solid blue;
+  border-radius: 6px;
+  background-color: purple;
+}
+
+.box_white {
+  border: 0px solid;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px rgba(0,0,0,0.2) ;
+  background-color: white;
+  text-align: center;
+  padding: 40px;
+  margin: 15px auto;
+}
+
+
+#h2_header_green {
+  color: rgba(38, 179, 38, 0.8);
+}
+
+.link_lists li a {
+  color: lightblue;
+  font-size: 40px;
+  padding-right: 10px;
+}
+
+.link_lists li {
+  display: inline;
+}
+
+.link_lists {
+  padding: 0px;
+}
+
+@media (max-width: 2000px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0px auto;
+  }
+}
+
+
+#lewagon_link:hover {
+  background-color: black;
+}
+
+.link_lists li a:hover {
+  color: black;
+}
